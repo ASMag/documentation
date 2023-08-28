@@ -62,4 +62,4 @@ PostgreSQL
 ^^^^^^^^^^
 ::
 
-    PGPASSWORD="password" pg_dump [db_name] -h [server] -U [username] -f nextcloud-sqlbkp_`date +"%Y%m%d"`.bak
+    PGPASSWORD='password' pg_dump [db_name] -h [server] -U [username] -f nextcloud-sqlbkp_`date +"%Y%m%d"`.bak
