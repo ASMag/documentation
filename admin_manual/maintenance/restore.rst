@@ -54,8 +54,8 @@ PostgreSQL
 ^^^^^^^^^^
 ::
 
-     PGPASSWORD="password" psql -h [server] -U [username] -d template1 -c "DROP DATABASE \"nextcloud\";"
-     PGPASSWORD="password" psql -h [server] -U [username] -d template1 -c "CREATE DATABASE \"nextcloud\";"
+     PGPASSWORD='password' psql -h [server] -U [username] -d template1 -c "DROP DATABASE \"nextcloud\";"
+     PGPASSWORD='password' psql -h [server] -U [username] -d template1 -c "CREATE DATABASE \"nextcloud\";"
 
 Restoring
 ---------
@@ -81,4 +81,4 @@ PostgreSQL
 ^^^^^^^^^^
 ::
 
-    PGPASSWORD="password" psql -h [server] -U [username] -d nextcloud -f nextcloud-sqlbkp.bak
+    PGPASSWORD='password' psql -h [server] -U [username] -d nextcloud -f nextcloud-sqlbkp.bak
